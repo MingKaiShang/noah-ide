@@ -9,6 +9,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.3-3178C6?style=flat-square&logo=typescript" />
     <img alt="License" src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
     <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-9cf?style=flat-square" />
+    <img alt="Version" src="https://img.shields.io/badge/Version-1.2.6-blue?style=flat-square" />
   </p>
   <br />
 </div>
@@ -19,11 +20,20 @@
 
 与传统的演示工具不同，NOAH IDE 生成的演示文稿是基于网页技术的，支持丰富的交互效果、动画和多媒体内容。
 
+## 📥 下载
+
+[👉 下载最新版本](https://github.com/MingKaiShang/noah-ide/releases/latest)
+
+- **Noah-IDE_v1.2.6_x64.exe** — 便携版（直接运行）
+- **Noah-IDE_1.2.6_x64-setup.exe** — 安装包（NSIS 安装程序）
+
 ## ✨ 功能特性
 
 ### 🎯 核心功能
 - **拖拽式编辑** — 从组件面板拖拽组件到画布，所见即所得
 - **组件系统** — 内置 18+ 种组件类型，覆盖基础、展示、形状、图表等类别
+- **AI 智能生成** — 输入主题，AI 自动生成完整演示文稿
+- **动画引擎** — 基于 Anime.js 的入场/循环动画
 - **实时预览** — 编辑时实时查看演示效果
 - **独立导出** — 导出为独立 HTML 文件，无需任何依赖即可播放
 - **项目管理** — 保存为 `.noah` 项目文件，随时打开继续编辑
@@ -63,8 +73,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/NOAH-IDE.git
-cd NOAH-IDE
+git clone https://github.com/MingKaiShang/noah-ide.git
+cd noah-ide
 
 # 安装依赖
 pnpm install
@@ -128,6 +138,10 @@ noah-ide/
 | [Three.js](https://threejs.org/) | 3D 渲染 |
 | [html2canvas](https://html2canvas.hertzen.com/) | 截图导出 |
 | [PptxGenJS](https://github.com/gitbrent/PptxGenJS) | PPTX 导出 |
+
+## 👤 作者
+
+**商明凯 (Mingkai)** — [GitHub](https://github.com/MingKaiShang)
 
 ## 📄 许可证
 
