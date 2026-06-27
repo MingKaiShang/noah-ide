@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nickvdp/nickvdp.github.io/refs/heads/main/schema.json",
+  "productName": "Noah IDE",
+  "version": "1.2.6",
+  "identifier": "com.noah.ide",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Noah IDE",
+        "width": 1400,
+        "height": 900,
+        "resizable": true,
+        "maximized": true
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "scope": ["**"]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "appimage", "deb"],
+    "fileAssociations": [
+      {
+        "ext": ["noah"],
+        "name": "noah-ide-project",
+        "description": "Noah IDE Project File"
+      }
+    ],
+    "windows": {
+      "nsis": {
+        "languages": ["SimpChinese", "English"]
+      }
+    },
+    "resources": ["../demo-presentation.noah"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

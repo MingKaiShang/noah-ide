@@ -1,0 +1,1103 @@
+{
+  "title": "诺亚 — 像做 PPT 一样简单，做出实时数据驱动的网页",
+  "components": [
+    {
+      "id": "p1_orb1",
+      "pageId": "p1",
+      "type": "AmbientOrb",
+      "position": { "x": 800, "y": -100 },
+      "size": { "width": 600, "height": 600 },
+      "props": { "color": "#6366F1", "opacity": 0.07, "blur": 100, "animate": true, "animDuration": 20, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 20, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p1_orb2",
+      "pageId": "p1",
+      "type": "AmbientOrb",
+      "position": { "x": -100, "y": 300 },
+      "size": { "width": 500, "height": 500 },
+      "props": { "color": "#06B6D4", "opacity": 0.05, "blur": 120, "animate": true, "animDuration": 25, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 25, "delay": 2, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p1_title",
+      "pageId": "p1",
+      "type": "GradientText",
+      "position": { "x": 340, "y": 180 },
+      "size": { "width": 600, "height": 70 },
+      "props": { "text": "诺亚 Noah IDE", "fontSize": 56, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#6366F1", "gradientMid": "#8B5CF6", "gradientEnd": "#06B6D4", "gradientAngle": 135, "letterSpacing": -2 },
+      "animation": { "type": "slideUp", "duration": 0.8, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p1_sub",
+      "pageId": "p1",
+      "type": "Text",
+      "position": { "x": 390, "y": 260 },
+      "size": { "width": 500, "height": 30 },
+      "props": { "text": "像做 PPT 一样简单，做出实时数据驱动的网页", "fontSize": 18, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.6, "delay": 0.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p1_badge",
+      "pageId": "p1",
+      "type": "Badge",
+      "position": { "x": 530, "y": 320 },
+      "size": { "width": 220, "height": 32 },
+      "props": { "text": "拖拽编辑 · AI 生成 · 实时数据", "fontSize": 13, "color": "#6366F1", "background": "rgba(99,102,241,0.15)", "borderColor": "rgba(99,102,241,0.35)", "borderRadius": 100, "paddingX": 20, "paddingY": 6 },
+      "animation": { "type": "scaleIn", "duration": 0.5, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p1_step1",
+      "pageId": "p1",
+      "type": "Step",
+      "position": { "x": 300, "y": 420 },
+      "size": { "width": 220, "height": 60 },
+      "props": { "number": 1, "text": "选择画布尺寸", "description": "幻灯片 / 手机 / PC / 自定义", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "slideUp", "duration": 0.5, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p1_step2",
+      "pageId": "p1",
+      "type": "Step",
+      "position": { "x": 530, "y": 420 },
+      "size": { "width": 220, "height": 60 },
+      "props": { "number": 2, "text": "拖拽或 AI 生成", "description": "组件拖入画布 / 自然语言描述", "color": "#8B5CF6", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "slideUp", "duration": 0.5, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p1_step3",
+      "pageId": "p1",
+      "type": "Step",
+      "position": { "x": 760, "y": 420 },
+      "size": { "width": 220, "height": 60 },
+      "props": { "number": 3, "text": "导出演示", "description": "一键导出 HTML / PDF / PPTX", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "slideUp", "duration": 0.5, "delay": 1.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p1_footer",
+      "pageId": "p1",
+      "type": "Text",
+      "position": { "x": 390, "y": 560 },
+      "size": { "width": 500, "height": 24 },
+      "props": { "text": "支持 DeepSeek / OpenAI / Claude / 千问 / GLM / Kimi / 小米 MiMo", "fontSize": 12, "color": "#475569", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.5, "delay": 1.8, "iterationCount": 1 }
+    },
+
+    {
+      "id": "p2_orb",
+      "pageId": "p2",
+      "type": "AmbientOrb",
+      "position": { "x": 700, "y": 50 },
+      "size": { "width": 700, "height": 700 },
+      "props": { "color": "#8B5CF6", "opacity": 0.05, "blur": 120, "animate": true, "animDuration": 25, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 25, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p2_title",
+      "pageId": "p2",
+      "type": "GradientText",
+      "position": { "x": 390, "y": 65 },
+      "size": { "width": 500, "height": 55 },
+      "props": { "text": "两种创作方式", "fontSize": 44, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#F59E0B", "gradientMid": "#EF4444", "gradientEnd": "#EC4899", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "slideUp", "duration": 0.6, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1",
+      "pageId": "p2",
+      "type": "Container",
+      "position": { "x": 120, "y": 155 },
+      "size": { "width": 480, "height": 490 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 28, "overflow": "hidden" },
+      "animation": { "type": "slideLeft", "duration": 0.5, "delay": 0.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1_title",
+      "pageId": "p2",
+      "type": "Text",
+      "position": { "x": 148, "y": 178 },
+      "size": { "width": 420, "height": 32 },
+      "props": { "text": "🖱️ 拖拽编辑", "fontSize": 22, "color": "#F1F5F9", "fontWeight": "bold", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1_desc",
+      "pageId": "p2",
+      "type": "Text",
+      "position": { "x": 148, "y": 220 },
+      "size": { "width": 420, "height": 120 },
+      "props": { "text": "从左侧组件栏拖入画布，自由调整位置和大小。\n27 种组件开箱即用：\n文字、图片、图表、视频、音频、光晕、形状、\n毛玻璃容器、MQTT 数据仪表盘、特效……", "fontSize": 14, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1_feat1",
+      "pageId": "p2",
+      "type": "Badge",
+      "position": { "x": 148, "y": 370 },
+      "size": { "width": 130, "height": 28 },
+      "props": { "text": "所见即所得", "fontSize": 12, "color": "#10B981", "background": "rgba(16,185,129,0.15)", "borderColor": "rgba(16,185,129,0.3)", "borderRadius": 100, "paddingX": 14, "paddingY": 5 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1_feat2",
+      "pageId": "p2",
+      "type": "Badge",
+      "position": { "x": 295, "y": 370 },
+      "size": { "width": 130, "height": 28 },
+      "props": { "text": "实时样式编辑", "fontSize": 12, "color": "#6366F1", "background": "rgba(99,102,241,0.15)", "borderColor": "rgba(99,102,241,0.3)", "borderRadius": 100, "paddingX": 14, "paddingY": 5 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1_feat3",
+      "pageId": "p2",
+      "type": "Badge",
+      "position": { "x": 148, "y": 410 },
+      "size": { "width": 160, "height": 28 },
+      "props": { "text": "右键上下文菜单", "fontSize": 12, "color": "#F59E0B", "background": "rgba(245,158,11,0.15)", "borderColor": "rgba(245,158,11,0.3)", "borderRadius": 100, "paddingX": 14, "paddingY": 5 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card1_feat4",
+      "pageId": "p2",
+      "type": "Badge",
+      "position": { "x": 325, "y": 410 },
+      "size": { "width": 160, "height": 28 },
+      "props": { "text": "键盘快捷键", "fontSize": 12, "color": "#06B6D4", "background": "rgba(6,182,212,0.15)", "borderColor": "rgba(6,182,212,0.3)", "borderRadius": 100, "paddingX": 14, "paddingY": 5 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card2",
+      "pageId": "p2",
+      "type": "Container",
+      "position": { "x": 680, "y": 155 },
+      "size": { "width": 480, "height": 490 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 28, "overflow": "hidden" },
+      "animation": { "type": "slideRight", "duration": 0.5, "delay": 0.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card2_title",
+      "pageId": "p2",
+      "type": "Text",
+      "position": { "x": 708, "y": 178 },
+      "size": { "width": 420, "height": 32 },
+      "props": { "text": "🤖 AI 一句话生成", "fontSize": 22, "color": "#F1F5F9", "fontWeight": "bold", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card2_desc",
+      "pageId": "p2",
+      "type": "Text",
+      "position": { "x": 708, "y": 220 },
+      "size": { "width": 420, "height": 120 },
+      "props": { "text": "用自然语言描述你的需求，AI 自动完成：\n配色方案 → 布局设计 → 组件添加 → 动画配置\n\n输入主题即可生成完整幻灯片，\n不满意可以继续对话调整。", "fontSize": 14, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card2_models",
+      "pageId": "p2",
+      "type": "Text",
+      "position": { "x": 708, "y": 370 },
+      "size": { "width": 420, "height": 80 },
+      "props": { "text": "已接入模型：\nDeepSeek / OpenAI / Claude / 通义千问\n智谱 GLM / Kimi / 小米 MiMo", "fontSize": 13, "color": "#64748B", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p2_card2_ai_note",
+      "pageId": "p2",
+      "type": "Badge",
+      "position": { "x": 708, "y": 470 },
+      "size": { "width": 200, "height": 28 },
+      "props": { "text": "去 AI 味设计 · 电影感构图", "fontSize": 12, "color": "#8B5CF6", "background": "rgba(139,92,246,0.15)", "borderColor": "rgba(139,92,246,0.3)", "borderRadius": 100, "paddingX": 14, "paddingY": 5 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 1.2, "iterationCount": 1 }
+    },
+
+    {
+      "id": "p3_orb",
+      "pageId": "p3",
+      "type": "AmbientOrb",
+      "position": { "x": 200, "y": 200 },
+      "size": { "width": 600, "height": 600 },
+      "props": { "color": "#10B981", "opacity": 0.05, "blur": 100, "animate": true, "animDuration": 22, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 22, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p3_title",
+      "pageId": "p3",
+      "type": "GradientText",
+      "position": { "x": 390, "y": 50 },
+      "size": { "width": 500, "height": 55 },
+      "props": { "text": "快速上手 · 三步走", "fontSize": 44, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#10B981", "gradientMid": "#06B6D4", "gradientEnd": "#6366F1", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "slideUp", "duration": 0.6, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step1_card",
+      "pageId": "p3",
+      "type": "Container",
+      "position": { "x": 120, "y": 150 },
+      "size": { "width": 330, "height": 500 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(99,102,241,0.2)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.5, "delay": 0.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step1_num",
+      "pageId": "p3",
+      "type": "GradientText",
+      "position": { "x": 148, "y": 175 },
+      "size": { "width": 60, "height": 50 },
+      "props": { "text": "01", "fontSize": 40, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#6366F1", "gradientMid": "#8B5CF6", "gradientEnd": "#06B6D4", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step1_title",
+      "pageId": "p3",
+      "type": "Text",
+      "position": { "x": 148, "y": 230 },
+      "size": { "width": 280, "height": 28 },
+      "props": { "text": "打开或新建项目", "fontSize": 18, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step1_desc",
+      "pageId": "p3",
+      "type": "Text",
+      "position": { "x": 148, "y": 270 },
+      "size": { "width": 280, "height": 160 },
+      "props": { "text": "启动诺亚后，你可以：\n• 新建空白项目\n• 打开 .noah 项目文件\n• 导入 PPTX 文件\n\n选择画布尺寸：\n幻灯片 (1280×720)\n手机 (375×812)\nPC (1440×900)\n自定义尺寸", "fontSize": 14, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step2_card",
+      "pageId": "p3",
+      "type": "Container",
+      "position": { "x": 475, "y": 150 },
+      "size": { "width": 330, "height": 500 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(139,92,246,0.2)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.5, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step2_num",
+      "pageId": "p3",
+      "type": "GradientText",
+      "position": { "x": 503, "y": 175 },
+      "size": { "width": 60, "height": 50 },
+      "props": { "text": "02", "fontSize": 40, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#8B5CF6", "gradientMid": "#EC4899", "gradientEnd": "#F59E0B", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step2_title",
+      "pageId": "p3",
+      "type": "Text",
+      "position": { "x": 503, "y": 230 },
+      "size": { "width": 280, "height": 28 },
+      "props": { "text": "设计你的页面", "fontSize": 18, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step2_desc",
+      "pageId": "p3",
+      "type": "Text",
+      "position": { "x": 503, "y": 270 },
+      "size": { "width": 280, "height": 280 },
+      "props": { "text": "两种方式：\n\n🖱️ 拖拽编辑\n左侧组件栏 → 拖入画布\n右侧面板调整属性\n添加动画效果\n\n🤖 AI 生成\n点击 AI 按钮 → 输入需求\nAI 自动完成布局和设计\n可反复调优\n\n按 F6 全屏预览", "fontSize": 14, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step3_card",
+      "pageId": "p3",
+      "type": "Container",
+      "position": { "x": 830, "y": 150 },
+      "size": { "width": 330, "height": 500 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(6,182,212,0.2)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.5, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step3_num",
+      "pageId": "p3",
+      "type": "GradientText",
+      "position": { "x": 858, "y": 175 },
+      "size": { "width": 60, "height": 50 },
+      "props": { "text": "03", "fontSize": 40, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#06B6D4", "gradientMid": "#10B981", "gradientEnd": "#34D399", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step3_title",
+      "pageId": "p3",
+      "type": "Text",
+      "position": { "x": 858, "y": 230 },
+      "size": { "width": 280, "height": 28 },
+      "props": { "text": "导出或演示", "fontSize": 18, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p3_step3_desc",
+      "pageId": "p3",
+      "type": "Text",
+      "position": { "x": 858, "y": 270 },
+      "size": { "width": 280, "height": 300 },
+      "props": { "text": "导出格式：\n\n📄 独立 HTML\n在任何设备打开，样式一致\n无需安装任何软件\n\n📑 PDF\n打印或分享\n\n📊 PPTX\n导入 / 导出\n\n🖼️ PNG\n单页截图或全部导出\n\n直接演示：\n按 F6 进入全屏模式\n左右键切换页面", "fontSize": 14, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 1.1, "iterationCount": 1 }
+    },
+
+    {
+      "id": "p4_orb",
+      "pageId": "p4",
+      "type": "AmbientOrb",
+      "position": { "x": 100, "y": 300 },
+      "size": { "width": 550, "height": 550 },
+      "props": { "color": "#EC4899", "opacity": 0.06, "blur": 100, "animate": true, "animDuration": 22, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 22, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p4_title",
+      "pageId": "p4",
+      "type": "GradientText",
+      "position": { "x": 390, "y": 50 },
+      "size": { "width": 500, "height": 55 },
+      "props": { "text": "核心功能一览", "fontSize": 44, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#EC4899", "gradientMid": "#8B5CF6", "gradientEnd": "#6366F1", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "slideUp", "duration": 0.6, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c1",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 80, "y": 140 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c1_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 100, "y": 158 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>", "iconColor": "#F59E0B", "iconSize": 18, "background": "rgba(245,158,11,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c1_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 148, "y": 164 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "27 种组件", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c1_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 100, "y": 200 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "文字、图片、图表、特效\n光晕、MQTT 数据仪表盘...", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c2",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 360, "y": 140 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c2_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 380, "y": 158 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='12' r='10'/><path d='M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/></svg>", "iconColor": "#6366F1", "iconSize": 18, "background": "rgba(99,102,241,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c2_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 428, "y": 164 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "动画引擎", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c2_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 380, "y": 200 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "入场 + 循环动画\n基于 Anime.js，三种配置模式", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c3",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 640, "y": 140 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c3_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 660, "y": 158 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2L2 7l10 5 10-5-10-5z'/><path d='M2 17l10 5 10-5'/><path d='M2 12l10 5 10-5'/></svg>", "iconColor": "#06B6D4", "iconSize": 18, "background": "rgba(6,182,212,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c3_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 708, "y": 164 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "实时数据", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c3_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 660, "y": 200 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "MQTT 直连传感器\nWebSocket 实时刷新", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c4",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 920, "y": 140 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c4_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 940, "y": 158 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/><polyline points='7 10 12 15 17 10'/><line x1='12' y1='15' x2='12' y2='3'/></svg>", "iconColor": "#10B981", "iconSize": 18, "background": "rgba(16,185,129,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c4_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 988, "y": 164 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "多格式导出", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c4_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 940, "y": 200 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "独立 HTML / PDF / PPTX / PNG\n任何设备打开，样式一致", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c5",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 80, "y": 285 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c5_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 100, "y": 303 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2' ry='2'/><line x1='3' y1='9' x2='21' y2='9'/><line x1='9' y1='21' x2='9' y2='9'/></svg>", "iconColor": "#EC4899", "iconSize": 18, "background": "rgba(236,72,153,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c5_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 148, "y": 309 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "多页面系统", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c5_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 100, "y": 345 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "幻灯片管理 + 全屏预览\n演讲者模式带备注和计时", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c6",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 360, "y": 285 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c6_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 380, "y": 303 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg>", "iconColor": "#F59E0B", "iconSize": 18, "background": "rgba(245,158,11,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c6_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 428, "y": 309 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "AI 多模型", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c6_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 380, "y": 345 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "支持 7 个主流模型\n流式输出，思考过程可视化", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c7",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 640, "y": 285 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c7_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 660, "y": 303 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><line x1='6' y1='3' x2='6' y2='15'/><circle cx='18' cy='6' r='3'/><circle cx='6' cy='18' r='3'/><path d='M18 9a9 9 0 0 1-9 9'/></svg>", "iconColor": "#06B6D4", "iconSize": 18, "background": "rgba(6,182,212,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c7_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 708, "y": 309 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "数据图表", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c7_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 660, "y": 345 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": "折线图 / 柱状图 / 饼图 / 雷达图\n数据驱动的动态展示", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c8",
+      "pageId": "p4",
+      "type": "Container",
+      "position": { "x": 920, "y": 285 },
+      "size": { "width": 260, "height": 120 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 12, "blur": 8, "padding": 20, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c8_icon",
+      "pageId": "p4",
+      "type": "IconBox",
+      "position": { "x": 940, "y": 303 },
+      "size": { "width": 36, "height": 36 },
+      "props": { "iconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><rect x='4' y='4' width='16' height='16' rx='2'/><line x1='9' y1='9' x2='15' y2='15'/><line x1='15' y1='9' x2='9' y2='15'/></svg>", "iconColor": "#10B981", "iconSize": 18, "background": "rgba(16,185,129,0.15)", "cornerRadius": 8 },
+      "animation": { "type": "scaleIn", "duration": 0.3, "delay": 1.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c8_title",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 988, "y": 309 },
+      "size": { "width": 170, "height": 24 },
+      "props": { "text": "原生格式", "fontSize": 16, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_c8_desc",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 940, "y": 345 },
+      "size": { "width": 220, "height": 40 },
+      "props": { "text": ".noah 原生项目格式\n完整保存所有编辑状态", "fontSize": 12, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p4_badge_row",
+      "pageId": "p4",
+      "type": "Text",
+      "position": { "x": 340, "y": 470 },
+      "size": { "width": 600, "height": 30 },
+      "props": { "text": "拖拽编辑  ·  AI 生成  ·  实时数据  ·  动画引擎  ·  多格式导出  ·  多页面  ·  键盘快捷键", "fontSize": 13, "color": "#475569", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.5, "delay": 1.8, "iterationCount": 1 }
+    },
+
+    {
+      "id": "p5_orb",
+      "pageId": "p5",
+      "type": "AmbientOrb",
+      "position": { "x": 700, "y": 100 },
+      "size": { "width": 600, "height": 600 },
+      "props": { "color": "#EF4444", "opacity": 0.05, "blur": 100, "animate": true, "animDuration": 20, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 20, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p5_title",
+      "pageId": "p5",
+      "type": "GradientText",
+      "position": { "x": 340, "y": 50 },
+      "size": { "width": 600, "height": 50 },
+      "props": { "text": "实时传感器数据演示", "fontSize": 40, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#EF4444", "gradientMid": "#F59E0B", "gradientEnd": "#10B981", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "slideUp", "duration": 0.6, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_subtitle",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 390, "y": 105 },
+      "size": { "width": 500, "height": 24 },
+      "props": { "text": "通过 MQTT 连接真实传感器，数据实时刷新", "fontSize": 14, "color": "#64748B", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 0.3, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq1",
+      "pageId": "p5",
+      "type": "Container",
+      "position": { "x": 120, "y": 160 },
+      "size": { "width": 230, "height": 200 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq1_disp",
+      "pageId": "p5",
+      "type": "MqttDisplay",
+      "position": { "x": 145, "y": 200 },
+      "size": { "width": 180, "height": 80 },
+      "props": { "brokerUrl": "wss://w039ceb6.ala.cn-hangzhou.emqxsl.cn:8084/mqtt", "topic": "noah/sensor/gas", "unit": "ppm", "label": "可燃气体浓度", "fontSize": 24, "color": "#EF4444" },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq1_bg",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 145, "y": 170 },
+      "size": { "width": 180, "height": 24 },
+      "props": { "text": "🔥 可燃气体 (MQ4)", "fontSize": 13, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq2",
+      "pageId": "p5",
+      "type": "Container",
+      "position": { "x": 370, "y": 160 },
+      "size": { "width": 230, "height": 200 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq2_disp",
+      "pageId": "p5",
+      "type": "MqttDisplay",
+      "position": { "x": 395, "y": 200 },
+      "size": { "width": 180, "height": 80 },
+      "props": { "brokerUrl": "wss://w039ceb6.ala.cn-hangzhou.emqxsl.cn:8084/mqtt", "topic": "noah/sensor/flame", "unit": "V", "label": "火焰电压信号", "fontSize": 24, "color": "#F59E0B" },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq2_bg",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 395, "y": 170 },
+      "size": { "width": 180, "height": 24 },
+      "props": { "text": "🔥 火焰传感器", "fontSize": 13, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq3",
+      "pageId": "p5",
+      "type": "Container",
+      "position": { "x": 620, "y": 160 },
+      "size": { "width": 230, "height": 200 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq3_disp",
+      "pageId": "p5",
+      "type": "MqttDisplay",
+      "position": { "x": 645, "y": 200 },
+      "size": { "width": 180, "height": 80 },
+      "props": { "brokerUrl": "wss://w039ceb6.ala.cn-hangzhou.emqxsl.cn:8084/mqtt", "topic": "noah/sensor/temp", "unit": "℃", "label": "物料温度", "fontSize": 24, "color": "#10B981" },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq3_bg",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 645, "y": 170 },
+      "size": { "width": 180, "height": 24 },
+      "props": { "text": "🌡️ 温度传感器", "fontSize": 13, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq4",
+      "pageId": "p5",
+      "type": "Container",
+      "position": { "x": 870, "y": 160 },
+      "size": { "width": 230, "height": 200 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq4_disp",
+      "pageId": "p5",
+      "type": "MqttDisplay",
+      "position": { "x": 895, "y": 200 },
+      "size": { "width": 180, "height": 80 },
+      "props": { "brokerUrl": "wss://w039ceb6.ala.cn-hangzhou.emqxsl.cn:8084/mqtt", "topic": "noah/sensor/pressure", "unit": "hPa", "label": "气压", "fontSize": 24, "color": "#6366F1" },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq4_bg",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 895, "y": 170 },
+      "size": { "width": 180, "height": 24 },
+      "props": { "text": "🌬️ 气压传感器", "fontSize": 13, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq5",
+      "pageId": "p5",
+      "type": "Container",
+      "position": { "x": 420, "y": 410 },
+      "size": { "width": 440, "height": 140 },
+      "props": { "background": "rgba(30,41,59,0.5)", "borderColor": "rgba(148,163,184,0.1)", "borderWidth": 1, "cornerRadius": 14, "blur": 8, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideUp", "duration": 0.4, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq5_disp",
+      "pageId": "p5",
+      "type": "MqttDisplay",
+      "position": { "x": 520, "y": 440 },
+      "size": { "width": 240, "height": 80 },
+      "props": { "brokerUrl": "wss://w039ceb6.ala.cn-hangzhou.emqxsl.cn:8084/mqtt", "topic": "noah/sensor/altitude", "unit": "m", "label": "海拔高度", "fontSize": 24, "color": "#06B6D4" },
+      "animation": { "type": "scaleIn", "duration": 0.4, "delay": 1.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_mq5_bg",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 520, "y": 415 },
+      "size": { "width": 240, "height": 24 },
+      "props": { "text": "🏔️ 海拔高度", "fontSize": 13, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p5_note",
+      "pageId": "p5",
+      "type": "Text",
+      "position": { "x": 340, "y": 590 },
+      "size": { "width": 600, "height": 40 },
+      "props": { "text": "数据来源：现场真实传感器 · 通过 MQTT 协议实时推送 · 每秒钟刷新", "fontSize": 13, "color": "#475569", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.4, "delay": 1.8, "iterationCount": 1 }
+    },
+
+    {
+      "id": "p6_orb",
+      "pageId": "p6",
+      "type": "AmbientOrb",
+      "position": { "x": 800, "y": 200 },
+      "size": { "width": 500, "height": 500 },
+      "props": { "color": "#6366F1", "opacity": 0.05, "blur": 100, "animate": true, "animDuration": 20, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 20, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p6_title",
+      "pageId": "p6",
+      "type": "GradientText",
+      "position": { "x": 440, "y": 60 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "text": "键盘快捷键", "fontSize": 40, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#6366F1", "gradientMid": "#8B5CF6", "gradientEnd": "#06B6D4", "gradientAngle": 135, "letterSpacing": -1 },
+      "animation": { "type": "slideUp", "duration": 0.6, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1",
+      "pageId": "p6",
+      "type": "Container",
+      "position": { "x": 120, "y": 150 },
+      "size": { "width": 460, "height": 500 },
+      "props": { "background": "rgba(30,41,59,0.4)", "borderColor": "rgba(148,163,184,0.08)", "borderWidth": 1, "cornerRadius": 12, "blur": 6, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideLeft", "duration": 0.5, "delay": 0.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_title",
+      "pageId": "p6",
+      "type": "Text",
+      "position": { "x": 148, "y": 175 },
+      "size": { "width": 400, "height": 28 },
+      "props": { "text": "画布编辑", "fontSize": 18, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_1",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 220 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 1, "text": "Delete / Backspace", "description": "删除选中组件", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_2",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 275 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 2, "text": "Ctrl+C / Ctrl+V", "description": "复制粘贴组件", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_3",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 330 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 3, "text": "Ctrl+Z / Ctrl+Shift+Z", "description": "撤销 / 重做", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_4",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 385 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 4, "text": "方向键", "description": "微调选中组件位置", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_5",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 440 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 5, "text": "Shift + 方向键", "description": "快速移动组件（10px 步进）", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_6",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 495 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 6, "text": "Ctrl+A", "description": "全选所有组件", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t1_7",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 148, "y": 550 },
+      "size": { "width": 400, "height": 50 },
+      "props": { "number": 7, "text": "Ctrl+S", "description": "保存项目", "color": "#6366F1", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2",
+      "pageId": "p6",
+      "type": "Container",
+      "position": { "x": 640, "y": 150 },
+      "size": { "width": 520, "height": 500 },
+      "props": { "background": "rgba(30,41,59,0.4)", "borderColor": "rgba(148,163,184,0.08)", "borderWidth": 1, "cornerRadius": 12, "blur": 6, "padding": 24, "overflow": "hidden" },
+      "animation": { "type": "slideRight", "duration": 0.5, "delay": 0.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_title",
+      "pageId": "p6",
+      "type": "Text",
+      "position": { "x": 668, "y": 175 },
+      "size": { "width": 460, "height": 28 },
+      "props": { "text": "演示控制", "fontSize": 18, "color": "#F1F5F9", "fontWeight": "600", "fontFamily": "sans-serif" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.4, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_1",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 220 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 1, "text": "F6", "description": "开始 / 退出全屏演示", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_2",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 275 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 2, "text": "← / → 或 空格", "description": "上一页 / 下一页", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.6, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_3",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 330 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 3, "text": "PageUp / PageDown", "description": "翻页", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.7, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_4",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 385 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 4, "text": "数字键 1~9", "description": "跳转到指定页码", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_5",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 440 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 5, "text": "Ctrl+P", "description": "打开 AI 对话面板", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 0.9, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_6",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 495 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 6, "text": "Ctrl+E", "description": "导出菜单", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p6_t2_7",
+      "pageId": "p6",
+      "type": "Step",
+      "position": { "x": 668, "y": 550 },
+      "size": { "width": 460, "height": 50 },
+      "props": { "number": 7, "text": "Esc", "description": "取消选中 / 关闭面板", "color": "#06B6D4", "fontSize": 13, "textColor": "#E2E8F0" },
+      "animation": { "type": "fadeIn", "duration": 0.3, "delay": 1.1, "iterationCount": 1 }
+    },
+
+    {
+      "id": "p7_orb1",
+      "pageId": "p7",
+      "type": "AmbientOrb",
+      "position": { "x": 800, "y": -100 },
+      "size": { "width": 600, "height": 600 },
+      "props": { "color": "#6366F1", "opacity": 0.07, "blur": 100, "animate": true, "animDuration": 20, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 20, "delay": 0, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p7_orb2",
+      "pageId": "p7",
+      "type": "AmbientOrb",
+      "position": { "x": -100, "y": 300 },
+      "size": { "width": 500, "height": 500 },
+      "props": { "color": "#06B6D4", "opacity": 0.05, "blur": 120, "animate": true, "animDuration": 25, "animDirection": "alternate" },
+      "animation": { "type": "drift", "duration": 25, "delay": 2, "iterationCount": "infinite" }
+    },
+    {
+      "id": "p7_title",
+      "pageId": "p7",
+      "type": "GradientText",
+      "position": { "x": 340, "y": 200 },
+      "size": { "width": 600, "height": 70 },
+      "props": { "text": "开始创作", "fontSize": 52, "fontWeight": "bold", "fontFamily": "sans-serif", "gradientStart": "#6366F1", "gradientMid": "#8B5CF6", "gradientEnd": "#06B6D4", "gradientAngle": 135, "letterSpacing": -2 },
+      "animation": { "type": "slideUp", "duration": 0.8, "delay": 0, "iterationCount": 1 }
+    },
+    {
+      "id": "p7_sub",
+      "pageId": "p7",
+      "type": "Text",
+      "position": { "x": 390, "y": 280 },
+      "size": { "width": 500, "height": 60 },
+      "props": { "text": "拖拽，生成，导出。\n双击——它在那里，像它本该有的样子。", "fontSize": 18, "color": "#94A3B8", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.6, "delay": 0.5, "iterationCount": 1 }
+    },
+    {
+      "id": "p7_badge1",
+      "pageId": "p7",
+      "type": "Badge",
+      "position": { "x": 460, "y": 380 },
+      "size": { "width": 160, "height": 32 },
+      "props": { "text": "像 PPT 一样简单", "fontSize": 13, "color": "#6366F1", "background": "rgba(99,102,241,0.15)", "borderColor": "rgba(99,102,241,0.35)", "borderRadius": 100, "paddingX": 20, "paddingY": 6 },
+      "animation": { "type": "scaleIn", "duration": 0.5, "delay": 0.8, "iterationCount": 1 }
+    },
+    {
+      "id": "p7_badge2",
+      "pageId": "p7",
+      "type": "Badge",
+      "position": { "x": 640, "y": 380 },
+      "size": { "width": 160, "height": 32 },
+      "props": { "text": "网页般强大", "fontSize": 13, "color": "#8B5CF6", "background": "rgba(139,92,246,0.15)", "borderColor": "rgba(139,92,246,0.35)", "borderRadius": 100, "paddingX": 20, "paddingY": 6 },
+      "animation": { "type": "scaleIn", "duration": 0.5, "delay": 1, "iterationCount": 1 }
+    },
+    {
+      "id": "p7_badge3",
+      "pageId": "p7",
+      "type": "Badge",
+      "position": { "x": 550, "y": 430 },
+      "size": { "width": 180, "height": 32 },
+      "props": { "text": "数据实时刷新", "fontSize": 13, "color": "#06B6D4", "background": "rgba(6,182,212,0.15)", "borderColor": "rgba(6,182,212,0.35)", "borderRadius": 100, "paddingX": 20, "paddingY": 6 },
+      "animation": { "type": "scaleIn", "duration": 0.5, "delay": 1.2, "iterationCount": 1 }
+    },
+    {
+      "id": "p7_notice",
+      "pageId": "p7",
+      "type": "Text",
+      "position": { "x": 340, "y": 530 },
+      "size": { "width": 600, "height": 24 },
+      "props": { "text": "开启右键菜单，了解更多操作", "fontSize": 13, "color": "#475569", "fontWeight": "normal", "fontFamily": "sans-serif", "align": "center" },
+      "animation": { "type": "fadeIn", "duration": 0.5, "delay": 1.6, "iterationCount": 1 }
+    }
+  ],
+  "pages": [
+    { "id": "p1", "name": "欢迎" },
+    { "id": "p2", "name": "两种创作方式" },
+    { "id": "p3", "name": "快速上手" },
+    { "id": "p4", "name": "核心功能" },
+    { "id": "p5", "name": "实时数据演示" },
+    { "id": "p6", "name": "快捷键" },
+    { "id": "p7", "name": "结尾" }
+  ],
+  "mqttBrokerUrl": "wss://w039ceb6.ala.cn-hangzhou.emqxsl.cn:8084/mqtt",
+  "showGrid": true,
+  "canvasConfig": {
+    "type": "slide",
+    "width": 1280,
+    "height": 720
+  },
+  "pageStyle": {
+    "background": "#0B1120",
+    "fontImport": "",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+  }
+}
